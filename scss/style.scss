@@ -3,8 +3,8 @@
   padding: 10px;
   .navbar {
     padding: 0px;
-    .navbar-brand img {
-      width: 274px;
+    img {
+      width: 275px;
     }
     .navbar-menu-div {
       justify-content: flex-end;
@@ -27,20 +27,20 @@
   .header {
     .navbar {
       display: block;
-      .navbar-brand img {
+      img {
         width: 400px;
         margin-left: auto;
       }
-      .navbar-brand p {
+      p {
         text-align: center;
       }
-      .navbar-nav {
-        margin: auto;
-        margin-top: -30px;
-        li {
-          margin-left: 10px;
-          font-weight: 700;
-        }
+    }
+    .navbar-nav {
+      margin: auto;
+      margin-top: -30px;
+      li {
+        margin-left: 10px;
+        font-weight: 700;
       }
     }
   }
