@@ -1,19 +1,25 @@
 @import "variable";
+
 .header {
   padding: 10px;
+
   .navbar {
     padding: 0px;
+
     img {
       width: 275px;
     }
+
     .navbar-menu-div {
       justify-content: flex-end;
     }
+
     .nav-link {
       margin: 10px;
       font-weight: 700;
       font-family: $font-family;
     }
+
     .nav-link:hover {
       padding: 5px 10px 10px 5px;
       background-color: $color-blue;
@@ -27,6 +33,7 @@
   .header {
     .navbar {
       display: block;
+
       img {
         width: 400px;
         margin-left: auto;
@@ -38,6 +45,7 @@
     .navbar-nav {
       margin: auto;
       margin-top: -30px;
+
       li {
         margin-left: 10px;
         font-weight: 700;
@@ -53,13 +61,16 @@
       top: -5px;
       left: 25%;
       width: 150px;
+
       .img-logo img {
         width: 230px;
       }
     }
+
     .navbar-menu-div {
       margin: 40px;
     }
+
     .fixed {
       position: fixed;
       z-index: 100;
