@@ -29,6 +29,106 @@
   }
 }
 
+  .banner {
+    background-image: url("../assets/img/banner.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    .info-banner {
+      padding: 50px;
+      
+    p:nth-child(1) {
+      margin-top: 100px;
+      font-size: 45px;
+      font-family: $font-family;
+    }
+
+    p:nth-child(2) {
+      font-size: 45px;
+      font-weight: 700;
+    }
+
+    img {
+      width: 55px;
+    }
+
+    p:nth-child(3) {
+      font-size: 18px;
+    }
+
+    button {
+      font-size: 28px;
+      border: 0;
+      background-color: $color-blue;
+      border-radius: 35px;
+      width: 377px;
+      box-shadow: 2px 7px 5px $shadow-hapo;
+      margin-bottom: 120px;
+      color: $color-button;
+      }
+    }
+  }
+
+  .tutorial-hapo {
+    margin-top: 30px;
+
+    .other-courses {
+
+      h1 {
+        font-size: 60px;
+        margin-top: 50px;
+      }
+      h2 {
+        font-size: 70px;
+        color: #B2D235;
+        margin-top: -50px;
+        margin-bottom: 90px;
+      }
+    }
+    .view-courses 
+
+      h1 {
+        color: #B2D235;
+        margin-top: 80px;
+        margin-bottom: 120px;
+      }
+
+    .card-hapo {
+
+      img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        box-shadow: 1px 1px 12px #888888;
+      }
+      a {
+        background-color: $color-blue;
+        font-size: 18px;
+        width: 200px;
+        border-radius: 35px;
+        border: 0;
+      }
+      h5 {
+          font-size: 30px;
+          color: $color-blue;
+      }
+    }
+
+    .card-body {
+      border-bottom-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+      box-shadow: 1px 1px 5px #888888;
+      background-color: $color-button;
+    }
+  }
+
+
+
+  
+    
+  
+  
+
+  
 @media only screen and (max-width: 770px) {
   .header {
 
@@ -52,13 +152,55 @@
       li {
         margin-left: 10px;
         font-weight: 700;
-        }
+      }
+    }
+  }
+
+ .banner {
+    .info-banner {
+      padding: 50px;
+      
+      p:nth-child(1) {
+        margin-top: 15px;
+        font-size: 30px;
+        font-family: $font-family;
+    }
+
+      p:nth-child(2) {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+      img {
+        width: 35px;
+    }
+
+      p:nth-child(3) {
+        font-size: 15px;
+        margin-top: -15px;
+    }
+
+      button {
+        font-size: 20px;
+        border: 0;
+        background-color: $color-blue;
+        border-radius: 35px;
+        width: 190px;
+        box-shadow: 2px 7px 5px $shadow-hapo;
+        margin-bottom: 120px;
+     }
     }
   }
 }
 
 @media only screen and (max-width: 415px) {
   .header {
+   
+    z-index: 100;
+    width: 100vw;
+    background-color: $color-button;
+   position: fixed;
     .navbar-brand {
       position: absolute;
       top: -5px;
@@ -73,11 +215,25 @@
     .navbar-menu-div {
       margin: 40px;
     }
-
-    .fixed {
-      position: fixed;
-      z-index: 100;
-      background-color: white;
-    }
   }
+
+  .banner {
+      width: 100%;
+      .info-banner { 
+
+        margin-left: 25px;
+
+      p:nth-child(1) {
+        font-size: 25px;
+        margin-top: 150px;
+      }    
+
+      p:nth-child(4) {
+        text-align: center;
+        margin-top: -5px;
+      }
+    } 
+  }
+
+  
 }
