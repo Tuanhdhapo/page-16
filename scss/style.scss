@@ -68,6 +68,66 @@
       }
     }
   }
+
+  .tutorial-hapo {
+    margin-top: 30px;
+
+    .other-courses {
+
+      h1 {
+        font-size: 60px;
+        margin-top: 50px;
+      }
+      h2 {
+        font-size: 70px;
+        color: #B2D235;
+        margin-top: -50px;
+        margin-bottom: 90px;
+      }
+    }
+    .view-courses 
+
+      h1 {
+        color: #B2D235;
+        margin-top: 80px;
+        margin-bottom: 120px;
+      }
+
+    .card-hapo {
+
+      img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        box-shadow: 1px 1px 12px #888888;
+      }
+      a {
+        background-color: $color-blue;
+        font-size: 18px;
+        width: 200px;
+        border-radius: 35px;
+        border: 0;
+      }
+      h5 {
+          font-size: 30px;
+          color: $color-blue;
+      }
+    }
+
+    .card-body {
+      border-bottom-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+      box-shadow: 1px 1px 5px #888888;
+      background-color: $color-button;
+    }
+  }
+
+
+
+  
+    
+  
+  
+
   
 @media only screen and (max-width: 770px) {
   .header {
@@ -136,11 +196,11 @@
 
 @media only screen and (max-width: 415px) {
   .header {
-    position: fixed;
+   
     z-index: 100;
     width: 100vw;
     background-color: $color-button;
-
+   position: fixed;
     .navbar-brand {
       position: absolute;
       top: -5px;
@@ -158,15 +218,14 @@
   }
 
   .banner {
-    margin-top: 70px;
-    width: 100%;
-    position: absolute;
+      width: 100%;
+      .info-banner { 
 
-    .info-banner { 
-      margin: 140px 0px 0px 30px;
-        
+        margin-left: 25px;
+
       p:nth-child(1) {
         font-size: 25px;
+        margin-top: 150px;
       }    
 
       p:nth-child(4) {
@@ -175,4 +234,6 @@
       }
     } 
   }
+
+  
 }
