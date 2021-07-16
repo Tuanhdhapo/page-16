@@ -1,47 +1,51 @@
 @import "variable";
 
-.header {
-  padding: 10px;
+	.header {
+  	padding: 10px;
 
-  .navbar {
-    padding: 0px;
+    .navbar {
+      padding: 0px;
 
-    img {
-      width: 275px;
-    }
+      img {
+        width: 275px;
+      }
 
-    .navbar-menu-div {
-      justify-content: flex-end;
-    }
+  	.navbar-menu-div {
+    	justify-content: flex-end;
+  	}
 
-    .nav-link {
-      margin: 10px;
-      font-weight: 700;
-      font-family: $font-family;
-    }
+		.nav-link {
+			margin: 10px;
+			font-weight: 700;
+			font-family: $font-family;
+			}
 
-    .nav-link:hover {
-      padding: 5px 10px 10px 5px;
-      background-color: $color-blue;
-      border-radius: 35px;
-      color: white !important;
-    }
-  }
+		.nav-link:hover {
+			padding: 5px 10px 10px 5px;
+			background-color: $color-blue;
+			border-radius: 35px;
+			color: white !important;
+			}
+		}
 }
 
 @media only screen and (max-width: 770px) {
+
   .header {
+
     .navbar {
       display: block;
 
       img {
         width: 400px;
-        margin-left: auto;
+  	    margin-left: auto;
       }
+
       p {
         text-align: center;
       }
     }
+
     .navbar-nav {
       margin: auto;
       margin-top: -30px;
@@ -49,13 +53,15 @@
       li {
         margin-left: 10px;
         font-weight: 700;
-      }
+        }
     }
   }
 }
 
 @media only screen and (max-width: 415px) {
+
   .header {
+
     .navbar-brand {
       position: absolute;
       top: -5px;
