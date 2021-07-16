@@ -29,10 +29,10 @@
   }
 }
 
-.banner {
-  background-image: url("../assets/img/banner.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
+  .banner {
+    background-image: url("../assets/img/banner.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 
   .info-banner {
     padding: 50px;
@@ -96,9 +96,9 @@
     }
   }
 
-.banner {
-  .info-banner {
-    padding: 50px;
+ .banner {
+    .info-banner {
+      padding: 50px;
       
       p:nth-child(1) {
         margin-top: 15px;
@@ -172,7 +172,7 @@
             text-align: center;
             margin-top: -5px;
           }
-        }
-      
+        } 
+        
   }
 }
